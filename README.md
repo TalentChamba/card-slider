@@ -1,8 +1,10 @@
 
+
 1. Clone the repo
 2. Select the branch you want
 3. Run `npm i` to install dependencies
 4. Run one of the following commands, depending on intent:
+5. Folder Structure
 
 ### Production Build
 
@@ -27,4 +29,10 @@ npm run watch
 ```bash
 npm start
 ```
+
+### Folder Structure
+
+When you have the project locally - note that the project contents as in assets i worked on reside inside the ```src folder
+there is index.js and style.css``` - i have manually created my index page instead of having an HTML loader and for that reason the html code resides in ``` Dist/index.html```
+
 
