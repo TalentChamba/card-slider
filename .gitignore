@@ -6,6 +6,7 @@ bin-release/
 
 # dependencies
 node_modules
+**/node_modules
 
 # Other files and folders
 .settings/
