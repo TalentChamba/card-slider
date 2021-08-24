@@ -1,5 +1,6 @@
 $text-light: #ffffff;
 $button-hover-color:#902D4E;
+$anchor-text-color:#902D4E;
 $button-color:#5291CD;
 $anchor-color-default:#8D2D4C;
 $light-text: moccasin;
@@ -76,7 +77,7 @@ a {
 	font-weight: bolder;
 	&:hover {
 		text-decoration: underline;
-		color: maroon;
+		color: $anchor-text-color;
 	}
 }
 .card-link-anchor {
